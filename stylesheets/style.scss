@@ -1,0 +1,66 @@
+@import 'reset';
+
+html {
+	background-image: url('../img/space.jpg');
+	background-size: cover;
+}
+
+.container {
+	width: 100%;
+	max-width: 1360px;
+	height: 100%;
+	overflow: none;
+
+}
+
+
+#space {
+	
+	
+	
+	
+	
+}
+
+.song {
+	display: none;
+}
+
+
+#kanye {
+
+	
+	img{
+		
+		position: absolute;
+		animation: gravity 30s infinite;
+		left: 100px; 
+		bottom:100px;
+
+		&:hover {
+			animation: gravity 30s infinite;
+		transform: rotate(4turn) 30s;
+	}
+@keyframes gravity {
+	0% { transform: rotate(0turn); }
+	100% {transform: rotate(4turn); }
+
+}
+		
+
+
+		
+	}
+}
+
+footer {
+	padding: 10px;
+	p {
+		color: white;
+		font-family: Helvetica;
+
+	}
+	a {
+		color: white;
+	}
+}
