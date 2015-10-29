@@ -61,8 +61,8 @@ html {
 #kanye img {
   position: absolute;
   animation: gravity 30s infinite;
-  left: 100px;
-  bottom: 100px; }
+  left: 400px;
+  bottom: 400px; }
   #kanye img:hover {
     animation: gravity 30s infinite;
     transform: rotate(4turn) 30s; }
